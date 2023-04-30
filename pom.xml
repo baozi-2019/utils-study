@@ -15,6 +15,7 @@
     </properties>
 
     <dependencies>
+        <!-- b=yte budy study -->
         <dependency>
             <groupId>net.bytebuddy</groupId>
             <artifactId>byte-buddy</artifactId>
@@ -30,6 +31,13 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
             <version>8.0.0.Final</version>
+        </dependency>
+
+        <!-- ip2region study -->
+        <dependency>
+            <groupId>org.lionsoul</groupId>
+            <artifactId>ip2region</artifactId>
+            <version>2.7.0</version>
         </dependency>
     </dependencies>
 
